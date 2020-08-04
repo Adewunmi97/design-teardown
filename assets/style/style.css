@@ -321,7 +321,7 @@ html {
 
 .recommendation p {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .order-book-text h2 a {
@@ -421,6 +421,10 @@ html {
 }
 
 /* second-grid */
+.second-grid {
+  width: 100%;
+  grid-auto-rows: 300px;
+}
 
 .recommendation h2 {
   font-size: 27px;
@@ -470,4 +474,51 @@ html {
 .book-img {
   margin-right: 70px;
   flex: 30%;
+}
+.guide {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  width: 90%;
+  margin: 50px 34px 0 37px;
+  grid-auto-rows: 600px;
+  
+}
+/* .shadow {
+  box-shadow: 10px gray;
+} */
+
+.guide1 {
+  margin-left: 30px;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.guide1 h3 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #202020;
+}
+
+.guide1 h1 {
+  font-size: 45px;
+  line-height: 54px;
+  color: #19A972;
+}
+
+.guide1 p {
+  font-size: 20px;
+  line-height: 33px;
+  color: #333;
+}
+
+
+.guide1 button {
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color:#19A972;
+  font-weight: 700;
+  font-size: 24px;
 }
