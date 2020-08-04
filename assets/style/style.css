@@ -1,9 +1,12 @@
 html {
   margin: 0;
+  width: 1440px;
+  overflow-x: hidden;
 }
 
 .flex {
   display: flex;
+  
 }
 
 .white {
@@ -64,4 +67,54 @@ html {
   position: relative;
   left: 40px;
   color: gray;
+}
+/* grid-components */
+.grid-components {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 600px;
+  margin: 0 auto;
+  
+}
+.grid1 {
+  background-color: rgb(87, 86, 86);
+}
+.grid2 {
+  background-color: rgb(139, 139, 139);
+}
+.grid3 {
+  background-color: rgb(139, 139, 139);
+}
+.grid4 {
+  background-color: rgb(87, 86, 86);
+}
+.left-margin {
+  margin-left: 70px;
+}
+.left-margin p {
+padding: 0 15px;
+}
+
+.component1 {
+  margin-top: 150px;
+
+}
+.component1 img {
+  width: 65px;
+  height: 65px;
+  border: 5px solid white;
+  border-radius: 8px;  
+}
+.component1 h2 {
+   padding: 0 10px;
+}
+.component1 span{
+  padding-top: 23px;
+  font-style: italic;
+  font-size: 20px;
+}
+.arrow {
+  margin-top: 70px;
+  width: 50px;
 }
