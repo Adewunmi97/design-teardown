@@ -362,15 +362,33 @@ html {
 
 /* top heading section */
 
-.top-heading strong {
+.top-heading h1 {
   position: absolute;
   text-align: center;
   margin-top: 20px;
   left: 500px;
+  z-index: 2;
+}
+
+.component1 span {
+  padding-top: 23px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.article-date span {
+  font-size: 10px;
+}
+
+.top-heading h1 span {
+  background-color: #fff;
+  padding: 2px;
   font-size: 35px;
   line-height: 56px;
-  z-index: 2;
-  background-color: #fff;
+}
+
+.top-heading h1 .span2 {
+  padding-top: 20px;
 }
 
 .top-heading div {
@@ -417,12 +435,6 @@ html {
   padding: 0 10px;
 }
 
-.component1 span {
-  padding-top: 23px;
-  font-style: italic;
-  font-size: 20px;
-}
-
 .arrow {
   margin-top: 70px;
   width: 50px;
@@ -453,10 +465,6 @@ html {
   color: gray;
   font-weight: 400;
   font-size: 15px;
-}
-
-.article-date span {
-  font-size: 10px;
 }
 
 .article-content {
@@ -715,7 +723,7 @@ html {
 /* footer section */
 
 .footer {
-  background-color: rgb(73, 71, 71);
+  background-color: rgb(90, 90, 90);
   height: 800px;
 }
 
@@ -781,4 +789,19 @@ html {
 .footer-img2 {
   height: 200px;
   width: 180px;
+}
+
+.arrow-up {
+  position: fixed;
+  float: right;
+  width: 50px;
+  font-size: 50px;
+  bottom: 50px;
+  right: 30px;
+  border-radius: 10px;
+  color: gray;
+}
+
+.fa-chevron-circle-up {
+  color: #333;
 }
