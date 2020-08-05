@@ -1,0 +1,4 @@
+dev/
+node_modules/
+.DS_Store/
+assets/img/.DS_Store
