@@ -16,31 +16,30 @@
 
 <body>
   <header>
-    <nav class="nav-bar">
+    <nav class="nav-bar flex">
+      <img class="mag-logo" src="https://www.smashingmagazine.com/images/logo--full.svg" alt="magazine-logo" />
+
       <ul class="flex nav-list">
-        <li><img src="assets/img/logo.png" alt="magazine-logo" /></li>
-        <li class="white">Articles</li>
-        <li class="white">Guides</li>
-        <li class="white">Books</li>
-        <li class="white">Events</li>
-        <li class="white">Membership</li>
-        <li><button class="white">More</button></li>
-        <li>
-          <div class="search">
-            <i class="fas fa-search"></i>
-            <input type="text" name="search" placeholder="Search articles...." />
-          </div>
+        <li><a href="#" class="white">Articles</a></li>
+        <li><a href="#" class="white">Guides</a></li>
+        <li><a href="#" class="white">Books</a></li>
+        <li><a href="#" class="white">Events</a></li>
+        <li><a href="#" class="white">Membership</a></li>
+        <li><button type="button" class="white menu-cat">More<img class="" src="https://www.smashingmagazine.com/images/icons/menu-cat.svg" alt="menu cat"></button>
         </li>
       </ul>
+      <div class="search">
+        <i class="fas fa-search"></i>
+        <input type="text" name="search" placeholder="Search articles...."/>
+      </div>
     </nav>
   </header>
   <main>
 
     <section class="top-heading">
-      <h1>Don’t Miss These Latest<br> Articles</h1>
-
+        <Strong>Don’t Miss These Latest<br>Articles</Strong>
       <div>
-        <img src="assets/img/icon1.png" alt="icon img">
+        <img class="img-gray image-border" src="assets/img/icon1.png" alt="icon img">
         <button>Seriously, gray?</button>
       </div>
     </section>
@@ -126,8 +125,11 @@
         </div>
       </article>
     </section>
+
+    <section class="reading-comp">
+
     <section class="grid reading-articles">
-      <article>
+      <article class="zoom">
         <p class="article-date">5&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -137,7 +139,7 @@
           quam eos consequatur voluptas accusantium.</p>
         <i class="fas fa-long-arrow-alt-right"></i>
       </article>
-      <article>
+      <article class="zoom">
         <p class="article-date">9&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -147,7 +149,7 @@
           quam eos consequatur voluptas accusantium.</p>
         <i class="fas fa-long-arrow-alt-right"></i>
       </article>
-      <article>
+      <article class="zoom">
         <p class="article-date">12&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -168,7 +170,7 @@
         <button type="button">Explore features&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
         <p class="sign-in">Already have an account? <a href="#">Sign in!</a></p>
       </article>
-      <article>
+      <article class="zoom">
         <p class="article-date">6&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -178,7 +180,7 @@
           quam eos consequatur voluptas accusantium.</p>
         <i class="fas fa-long-arrow-alt-right"></i>
       </article>
-      <article>
+      <article class="zoom">
         <p class="article-date">6&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -191,7 +193,7 @@
     </section>
 
     <section class="grid reading-articles">
-      <article>
+      <article class="zoom">
         <p class="article-date">6&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -202,7 +204,7 @@
         <i class="fas fa-long-arrow-alt-right"></i>
       </article>
 
-      <article>
+      <article class="zoom">
         <p class="article-date">6&nbsp;<span>DAYS AGO</span></p>
         <h3><a href="#">Inspired Design Decisions With Emmett McBain: Art Direction As Social Equity</a></h3>
         <p class="author">by&nbsp;<a href="#">Andrew Clarke</a></p>
@@ -225,6 +227,7 @@
 
     </section>
 
+  </section>
 
     <section class="grid order-person">
       <section class="latest-articles">
